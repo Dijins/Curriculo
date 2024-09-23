@@ -1,6 +1,31 @@
 body{
-    background-color:bisque;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(190, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.link{
+    background-color: rgba(145, 145, 146, 0.733);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.link a{
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    flex-grow: 1;
+    flex-basis: 200;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x{
+    border-radius: 10px;
+    background-color:rgb(83, 83, 83);
 }
 
 .titulo{
@@ -8,7 +33,39 @@ body{
     margin: 2%;
 }
 
-section{
-    border-bottom: solid;
+.foto{
+    width: 100px;
+    border-radius: 150px;
 }
 
+.item{
+    border-radius: 10px;
+    background-color: rgba(208, 209, 211, 0.733);
+    flex-wrap: wrap;
+    text-align: center;
+    list-style-position: inside;
+    margin: 1.5%;
+}
+
+.mais{
+    background-color: rgba(145, 145, 146, 0.733);
+    text-align: center;
+}
+
+.a{
+    font-size: xx-large;
+    margin: 3%;
+    color: black;
+}
+
+.l:hover{
+    color: blue;
+}
+
+.i:hover{
+    color:purple
+}
+
+.g:hover{
+    color:gray
+}
